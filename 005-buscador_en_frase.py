@@ -1,6 +1,6 @@
 frase="En un lugar de La Mancha, La Mancha es una región"
 fraseMayusc=frase.upper()
-TextoABuscar=input("¿Qué quieres buscar?: ")
+TextoABuscar=input("¿Qué quieres buscar en la frase: En un lugar de La Mancha, La Mancha es una región?: ")
 TextoABuscarMayusc=TextoABuscar.upper()
 NumCoincidencias=fraseMayusc.count(TextoABuscarMayusc)
 print("El texto \""+TextoABuscar+"\"","aparece",NumCoincidencias,end="")
