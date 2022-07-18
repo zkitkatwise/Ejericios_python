@@ -5,7 +5,7 @@ if salarioAnual.isdigit():
     numMeses=int(input("¿En cuántas pagas quieres calcularlo? (12 o 14): "))
     salarioMensual=round(salarioAnual/numMeses, 1)
     print("Tu salario mensual es",salarioMensual,"€ en",numMeses,"pagas.")
-    toaster= ToastNotifier()
+    toaster = ToastNotifier()
     toaster.show_toast("Zkit Project","Tu salario mensual es "+str(salarioMensual))
 elif salarioAnual[0]=="-":
     print("El valor introducido no es positivo.")
