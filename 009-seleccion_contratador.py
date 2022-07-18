@@ -7,7 +7,8 @@ mayor_edad = edad>=MAYORIAEDAD
 nacionalidad_valida = (nacionalidad=="Frances" or nacionalidad=="Aleman") and nacionalidad!="Ruso"
 idiomas_validos = idioma1=="Ingles" and idioma2=="Chino" or idioma1=="Chino" and idioma2=="Ingles"
 
-if mayor_edad and nacionalidad_valida and idiomas_validos:
+es_apto = mayor_edad and nacionalidad_valida and idiomas_validos
+if es_apto:
     print("Puedes ser contratado")
 else:
     print("No cumples el perfil")
