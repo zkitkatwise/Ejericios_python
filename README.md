@@ -1,2 +1,2 @@
-# Ejericios_cortos
- Ejercicos cortos de Python
+# Ejericios_python
+ Ejercicos de Python.
