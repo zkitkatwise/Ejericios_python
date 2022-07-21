@@ -7,7 +7,7 @@ texto = webUrl.read()
 texto = str(texto)
 texto_minusculas = texto.lower()
 #PARTE TRES
-texto_lista = texto.split()
+texto_lista = texto_minusculas.split()
 #PARTE CUATRO
 palabra = input("Introduce la palabra a buscar: ")
 palabra = palabra.lower()
