@@ -1,19 +1,39 @@
-empresa=[]
-departamento1=["Informatica"]
-departamento2=["Recursos Humanos"]
-empleado1=["Pablo","Director"]
-empleado2=["Sofia","Subdirectora"]
-empleado3=["Lucas","Técnico"]
-empleado4=["Lucía","Directora"]
-empleado5=["Luis","Técnico"]
-empleados_dpto1=[empleado1,empleado2]
-empleados_dpto2=[empleado3,empleado4,empleado5]
-departamento1.append(empleados_dpto1)
-departamento2.append(empleados_dpto2)
-empresa.append(departamento1)
-empresa.append(departamento2)
+empresa = []
+dpto1 = []
+dpto2 = []
+empleadosdep1 = []
+empleadosdep2 = []
+e1 = ["Director","Luis"]
+e2 = ["Técnico","Pablo"]
+e3 = ["Gerente","Paula"]
+e4 = ["Publicista","Andrea"]
+e5 = ["Escritor","Pedro"]
+#Insertar departamentos a la empresa
+empresa.append(dpto1)
+empresa.append(dpto2)
+#Poner el nombre al departamento 1
+dpto1.append("Informática")
+#Asignar empleados al departamento 1
+empleadosdep1.append(e1)
+empleadosdep1.append(e2)
+dpto1.append(empleadosdep1)
+#Poner nombre al departamento 2
+dpto2.append("Ventas")
+#Asignar empleados al departamento 2
+empleadosdep2.append(e3)
+empleadosdep2.append(e4)
+empleadosdep2.append(e5)
+dpto2.append(empleadosdep2)
+#Cambio gerente departamento de ventas
+e3[1] = "María"
+#Mostrar la empresa
 for departamento in empresa:
-    print("Departamento:",departamento[0])
+    print("======",departamento[0],"======")
     for empleado in departamento[1]:
-        print(" *Empleado*: ",empleado[0])
-        print("   -Categoria-: ",empleado[1])
+        print("   -",empleado[0]+":",empleado[1])
+#Buscar la profesion de un empleado
+nombre_a_buscar = input("Introduce el nombre del empleado a buscar: ")
+for departamento in empresa:
+    for empleado in departamento[1]:
+        if empleado[1] == nombre_a_buscar:
+            print(empleado[1],"trabaja como",empleado[0],"en el departamento de",departamento[0])
