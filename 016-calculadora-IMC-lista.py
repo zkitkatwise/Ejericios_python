@@ -1,6 +1,3 @@
-TIEMPO_SONIDO=1000
-EXTENSION_FICHERO=".txt"
-
 referencias= [[0,"Delgadez muy severa"],[15,"Delgadez severa"],[16,"Delgadez"],[18.5,"Peso Saludable"],[25,"Sobrepeso"],[30,"Obesidad Moderada"],[35,"Obesidad severa"],[40,"Obesidad muy severa"]]
 referencias.reverse()
 
