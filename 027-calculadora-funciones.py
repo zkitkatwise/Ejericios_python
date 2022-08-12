@@ -19,7 +19,7 @@ def gestion_operaciones(operacion,operando1,operando2):
         resultado = multiplicar(operando1,operando2)
     elif operacion==4:
         resultado = dividir(operando1,operando2)
-
+        
     return resultado
 
 operacion = -1
@@ -31,7 +31,6 @@ while operacion!=0:
             operando1=int(input("Introduce el primer operando: "))
             operando2=int(input("Introduce el segundo operando: "))
             resultado = gestion_operaciones(operacion,operando1,operando2)
-            print("\n---- El resultado de la operación es:",resultado,"----")
-            
+            print("\n---- El resultado de la operación es:",resultado,"----")     
     except:
         print("\nSe ha producido un error","")
