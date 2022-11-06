@@ -31,6 +31,6 @@ while operacion!=0:
             operando1=int(input("Introduce el primer operando: "))
             operando2=int(input("Introduce el segundo operando: "))
             resultado = gestion_operaciones(operacion,operando1,operando2)
-            print("\n---- El resultado de la operación es:",resultado,"----")     
+            print("\n---- El resultado de la operación es:",resultado,"----")
     except:
         print("\nSe ha producido un error","")
