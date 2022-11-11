@@ -11,3 +11,4 @@ for n in range(NUMERO_ELEMENTOS):
     fichero_csv.write(str(cosa_aleatoria.generar_nombre(1)+";"+cosa_aleatoria.generar_contraseña(NUM_CARACTERES_CONTRASEÑA)+"\n"))
 
 fichero_csv.close
+print("DONE")
