@@ -1,0 +1,1 @@
+Programa que coge un JSON, y te da un PDF con una foto de background y el poster e información de la película.
