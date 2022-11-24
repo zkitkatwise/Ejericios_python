@@ -1,0 +1,4 @@
+OMDB_API_KEY= "e74efaa5" 
+#Esta es mi API key asociada a mi correo. La key tiene un límite de 1000 requests diarias, por favor cámbiela por la suya (es gratis).
+
+Requests_link = "http://www.omdbapi.com/?apikey=[yourkey]&
